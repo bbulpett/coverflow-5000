@@ -9,24 +9,30 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="stylesheets/normalize.css">
         <link rel="stylesheet" href="stylesheets/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/g/modernizr@2.8.3,jquery@3.0.0"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
         <header>
             <h1>coverflow-5000 demo</h1>
+            <i class="fa fa-github-alt fa-4x" aria-hidden="true"></i>
         </header>
 
-        <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <div class="coverflow-stage">
+            <ul class="coverflow-list">
+                <li class="coverflow-item"><img src="http://placehold.it/75/cb60b3"></li>
+                <li class="coverflow-item"><img src="http://placehold.it/75/cb60b3"></li>
+                <li class="coverflow-item"><img src="http://placehold.it/75/cb60b3"></li>
+                <li class="coverflow-item"><img src="http://placehold.it/75/cb60b3"></li>
+                <li class="coverflow-item"><img src="http://placehold.it/75/cb60b3"></li>
+                <li class="coverflow-item"><img src="http://placehold.it/75/cb60b3"></li>
+            </ul>
+        </div>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>

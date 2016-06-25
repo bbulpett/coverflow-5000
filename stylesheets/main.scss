@@ -11,21 +11,44 @@ html {
 
 body {
 	background: #444;
-	font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
 	margin: 0 0 100px;
+	padding: 0;
 	min-width: 320px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 header {
-	max-height: 300px;
+	height: 7em;
 	background: #cb60b3; /* Old browsers */
 	background: -moz-linear-gradient(top,  #cb60b3 0%, #ad1283 50%, #de47ac 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  #cb60b3 0%,#ad1283 50%,#de47ac 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  #cb60b3 0%,#ad1283 50%,#de47ac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=0 ); /* IE6-9 */
+	color: #E6E6E6;
+	padding: 1em;
+
+	h1 {
+		margin: 0 auto;
+		font-size: 2em;
+	}
+}
+
+.coverflow-stage {
+	width: 100%;
+
+	.coverflow-list {
+		list-style: none;
+		display: block;
+		margin: 7em auto;
+
+		.coverflow-item {
+			margin: 0 1em;
+			display: inline;
+		}
+	}
 }
