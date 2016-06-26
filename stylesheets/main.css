@@ -1,14 +1,67 @@
-.coverflow-stage {
-  width: 100%;
-  text-align: center; }
-  .coverflow-stage .coverflow-list {
-    list-style: none;
-    margin: 7em auto;
-    padding: 0; }
-    .coverflow-stage .coverflow-list .coverflow-item {
-      margin: 0 1em;
-      display: inline;
-      box-shadow: 0px 100px 38px 0.2em #121212; }
+ul.coverflow-list {
+  text-indent: -3%; }
+
+.coverflow-item:first-child img {
+  border: 3px dotted #0A0;
+  -ms-transform: rotateY(45deg);
+  -webkit-transform: rotateY(45deg);
+  transform: rotateY(45deg);
+  margin: 0 -90px 0 90px;
+  z-index: 0; }
+
+.coverflow-item:last-child img {
+  border: 3px dotted #0A0;
+  -ms-transform: rotateY(-45deg);
+  -webkit-transform: rotateY(-45deg);
+  transform: rotateY(-45deg);
+  margin: 0 90px 0 -90px;
+  z-index: 0; }
+
+.coverflow-item:nth-child(2) img {
+  border: 3px dotted #00F;
+  -ms-transform: rotateY(30deg);
+  -webkit-transform: rotateY(30deg);
+  transform: rotateY(30deg);
+  margin: 0 -60px 0 60px;
+  z-index: 1; }
+
+.coverflow-item:nth-last-child(2) img {
+  border: 3px dotted #00F;
+  -ms-transform: rotateY(-30deg);
+  -webkit-transform: rotateY(-30deg);
+  transform: rotateY(-30deg);
+  margin: 0 60px 0 -60px;
+  z-index: 1; }
+
+.coverflow-item:nth-child(3) img {
+  border: 3px dotted #00F;
+  -ms-transform: rotateY(30deg);
+  -webkit-transform: rotateY(30deg);
+  transform: rotateY(30deg);
+  margin: 0 -30px 0 30px;
+  z-index: 2; }
+
+.coverflow-item:nth-last-child(3) img {
+  border: 3px dotted #00F;
+  -ms-transform: rotateY(-30deg);
+  -webkit-transform: rotateY(-30deg);
+  transform: rotateY(-30deg);
+  margin: 0 30px 0 -30px;
+  z-index: 2; }
+
+.coverflow-item:only-child img {
+  border: 3px dotted #F00;
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none; }
+
+.coverflow-item:nth-child(n+4).coverflow-item:nth-last-child(n+4) img {
+  width: 150px;
+  height: 150px;
+  border: 3px dotted #F00;
+  -ms-transform: none;
+  -webkit-transform: none;
+  transform: none; }
 
 html {
   position: relative;
@@ -61,5 +114,19 @@ footer {
     color: #222;
     font-size: 90%;
     text-decoration: none; }
+
+.coverflow-stage {
+  width: 100%;
+  text-align: center; }
+  .coverflow-stage .coverflow-list {
+    list-style: none;
+    margin: 7em auto;
+    padding: 0;
+    perspective: 300px;
+    perspective-origin: 50% 25%; }
+    .coverflow-stage .coverflow-list .coverflow-item {
+      margin: 0 1em;
+      display: inline;
+      box-shadow: 0px 100px 38px 0.2em #121212; }
 
 /*# sourceMappingURL=main.css.map */
