@@ -1,3 +1,4 @@
+@import 'coverflow';
 
 html {
 	position: relative;
@@ -10,7 +11,7 @@ html {
 }
 
 body {
-	background: #444;
+	background: #777;
 	margin: 0 0 100px;
 	padding: 0;
 	min-width: 320px;
@@ -29,26 +30,31 @@ header {
 	background: -webkit-linear-gradient(top,  #cb60b3 0%,#ad1283 50%,#de47ac 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  #cb60b3 0%,#ad1283 50%,#de47ac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=0 ); /* IE6-9 */
-	color: #E6E6E6;
 	padding: 1em;
+	border-bottom: 0.5em solid #606;
 
 	h1 {
 		margin: 0 auto;
 		font-size: 2em;
 	}
-}
 
-.coverflow-stage {
-	width: 100%;
-
-	.coverflow-list {
-		list-style: none;
-		display: block;
-		margin: 7em auto;
-
-		.coverflow-item {
-			margin: 0 1em;
-			display: inline;
-		}
+	* {
+		color: #E9E9E9;
 	}
 }
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 0.25em;
+
+	a {
+		color: #222;
+		font-size: 90%;
+		text-decoration: none;
+	}
+}
+
+

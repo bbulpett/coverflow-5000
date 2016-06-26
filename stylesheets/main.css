@@ -1,3 +1,15 @@
+.coverflow-stage {
+  width: 100%;
+  text-align: center; }
+  .coverflow-stage .coverflow-list {
+    list-style: none;
+    margin: 7em auto;
+    padding: 0; }
+    .coverflow-stage .coverflow-list .coverflow-item {
+      margin: 0 1em;
+      display: inline;
+      box-shadow: 0px 100px 38px 0.2em #121212; }
+
 html {
   position: relative;
   min-height: 100%;
@@ -8,7 +20,7 @@ html {
   font-smoothing: antialiased; }
 
 body {
-  background: #444;
+  background: #777;
   margin: 0 0 100px;
   padding: 0;
   min-width: 320px;
@@ -31,20 +43,23 @@ header {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=0 );
   /* IE6-9 */
-  color: #E6E6E6;
-  padding: 1em; }
+  padding: 1em;
+  border-bottom: 0.5em solid #606; }
   header h1 {
     margin: 0 auto;
     font-size: 2em; }
+  header * {
+    color: #E9E9E9; }
 
-.coverflow-stage {
-  width: 100%; }
-  .coverflow-stage .coverflow-list {
-    list-style: none;
-    display: block;
-    margin: 7em auto; }
-    .coverflow-stage .coverflow-list .coverflow-item {
-      margin: 0 1em;
-      display: inline; }
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.25em; }
+  footer a {
+    color: #222;
+    font-size: 90%;
+    text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAiB;EAChB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAElB,gCAAgB;IACf,UAAU,EAAE,IAAI;IAChB,MAAM,EAAE,QAAQ;IAChB,OAAO,EAAE,CAAC;IAEV,gDAAgB;MACf,MAAM,EAAE,KAAK;MACb,OAAO,EAAE,MAAM;MACZ,UAAU,EAAE,4BAA4B",
+"sources": ["coverflow.scss"],
+"names": [],
+"file": "coverflow.css"
+}

@@ -1,0 +1,13 @@
+.coverflow-stage {
+  width: 100%;
+  text-align: center; }
+  .coverflow-stage .coverflow-list {
+    list-style: none;
+    margin: 7em auto;
+    padding: 0; }
+    .coverflow-stage .coverflow-list .coverflow-item {
+      margin: 0 1em;
+      display: inline;
+      box-shadow: 0px 100px 38px 0.2em #121212; }
+
+/*# sourceMappingURL=coverflow.css.map */
